@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*
+Theme Name: Kamakura Seisakusho
+Theme URI: https://www.kamakura-ss.co.jp
+Author: Kamakura Seisakusho Inc.
+Author URI: https://www.kamakura-ss.co.jp
+Description: 
+Requires at least: WordPress 5.5.1
+Version: 202009
+Design by : Communication Arts Inc.
+*/
+
+.body__wrap .content-body.movies.documents .section__inner ul.anchor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.body__wrap .content-body.movies.documents .section__inner ul.anchor li {
+  flex-basis: unset;
+  border-right: 1px solid #ddd;
+}
+.body__wrap .content-body.movies.documents .section__inner ul.anchor li:last-child {
+  border-right: unset;
+}
+.body__wrap .content-body.movies.documents .section__inner ul.anchor li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  border-left: unset;
+  text-align: center;
+  padding: 5px 25px;
+  position: relative;
+  padding-right: 53px;
+}
+/*打ち消し指定*/
+.body__wrap .content-body.movies.documents .section__inner ul.anchor li a:last-child {
+  border-right: unset;
+}
+
+.body__wrap .content-body.movies.documents .section__inner ul.anchor li a:after {
+  right: 20px;
+}
+
+.body__wrap .content-body.movies.documents .section__inner.arch ul li {
+  flex-basis: calc( (100% - 75px )/ 4 );
+  margin-right: 25px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+} 
+.body__wrap .content-body.movies.documents .section__inner.arch ul li:nth-child(4) {
+  margin-right: 0px;
+}
+/*打ち消し指定*/
+.body__wrap .content-body.movies.documents .section__inner.arch ul li:nth-child(3n) {
+  margin-right: auto;
+}
+
+.body__wrap .content-body.movies.documents .section__inner.arch ul li img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid #EEEEEE;
+}
+/* .body__wrap .content-body.movies.documents .section__inner.arch ul li .bl-text-body {
+  padding: 20px;
+  border-top: 1px solid #EEEEEE;
+} */
+.body__wrap .content-body.movies.documents .section__inner.arch ul li .title {
+  font-size: 16px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  padding: 20px;
+}
+/*打ち消し指定*/
+.body__wrap .content-body.movies.documents .section__inner.arch ul li p {
+  padding: 0px;
+}
+.body__wrap .content-body.movies.documents .section__inner.arch ul li a {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  text-indent: unset;
+
+  background: #0776C3;
+  padding: 10px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(7, 118, 195, .2);
+  text-align: center;
+  margin: 0 20px 20px;
+  box-sizing: border-box;
+  margin-top: auto;
+  transition: 0.3s;
+}
+.body__wrap .content-body.movies.documents .section__inner.arch ul li a:hover  {
+  opacity: 0.6;
+}
+/*打ち消し指定*/
+.body__wrap .content-body.movies.documents .section__inner.arch ul li:hover {
+  opacity: unset;
+  -moz-box-shadow: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+@media screen and (max-width: 568px) { 
+
+  .body__wrap .content-body.documents .page-header h1 {
+    font-size: 26px;
+    letter-spacing: 0;
+  }
+
+  .body__wrap .content-body.movies.documents .section__inner ul.anchor {
+    justify-content: space-between;
+  }
+
+  .body__wrap .content-body.movies.documents .section__inner ul.anchor li {
+    flex-basis: 10em;
+    border-right: none;
+  }
+
+  .body__wrap .content-body.movies.documents .section__inner ul.anchor li a {
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    padding: 10px 20px 10px 25px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+}

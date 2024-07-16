@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>ダウンロード｜株式会社 鎌倉製作所</title>
+
+	<?php
+include( $_SERVER['DOCUMENT_ROOT'] . '/inc/google_tagmanager.php');
+?>
+
+	<link rel="stylesheet" type="text/css" href="../assets/stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/sp_lev2.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		//送信ボタンの無効、チェックボックスを外す
+		$(".confirmationBtn").addClass("is-not-submit").attr("disabled","disabed");
+		$(".consentBtn input:checkbox").attr('checked',false);
+		//チェックボックスがクリックされると送信ボタン有効
+		$(".consentBtn label,.consentBtn input").click(function(){
+			if($(".consentBtn input:checkbox").is(':checked')){
+				$(".confirmationBtn").removeClass("is-not-submit").removeAttr("disabled");
+			}else{
+				 $(".confirmationBtn").addClass("is-not-submit").attr("disabled","disabed");
+			}
+		})
+	});
+</script>
+
+
+</head>
+<body>
+
+
+<?php
+$gnav = "contact";
+include( '../inc/header.php');
+?>
+
+
+<a href="confirm"></a>
+<div id="contactWrapper">
+	<h2>CADデータダウンロード（無料）</h2>
+
+<h3 style="margin-top:50px;text-align:center;color:#0076c3;font-weight:bold;font-size:20px;">只今メンテナンス中です</h3>
+<p style="margin-top:20px;font-size:14px;line-height:22px;text-align:center;">現在システムメンテナンスのためこちらのページはご利用いただけません。<br>
+大変ご不便をおかけいたすますが、ご理解いただきますようお願い申し上げます。</p>
+<p style="margin-top:20px;font-size:14px;line-height:22px;text-align:center;"><a href="/contact/contact_list.html">&raquo; お問い合わせ一覧</a></p>
+<p style="margin-top:20px;font-size:14px;line-height:22px;text-align:center;">メンテナンス終了予定日時<br>
+2019年2月19日（火）</p>
+
+
+
+</div><!-- /#wrapper -->
+
+
+
+<?php
+include('../inc/footer.php');
+?>
+
+
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/js/contact/jquery.ba-hashchange.min.js"></script>
+<script src="../assets/js/contact/autoConfirm.js"></script>
+<script src="../assets/js/contact/varidation_kmkr.js"></script>
+<script src="../assets/js/contact/contact.js"></script>
+
+
+
+
+
+</body>
+</html>

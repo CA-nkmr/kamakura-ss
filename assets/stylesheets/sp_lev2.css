@@ -1,0 +1,453 @@
+.lev2_t, .sp_pro_t, .sp_cont_t, .sp_only{
+  display: none;
+}
+
+.corp #gallery .copy{
+    font-size:20px;
+    font-weight: 600;
+    margin:20px 0;
+  }
+
+  .pro_index #content .pro_t{
+    display: none;
+  }
+
+
+@media only screen and (min-width: 751px){
+  a[href*="tel:"] {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        color:#333!important;
+    }
+  }
+
+@media only screen and (max-width: 568px){
+
+  .sp_none{
+    display: none;
+  }
+
+  .sp_only{
+    display: inline-block;
+  }
+
+  #breadcrumbList{
+    display: none;
+  }
+  #wrapper, #pagebody{
+    max-width: 568px;
+    width:100% !important;
+    overflow: hidden;
+    margin:0 !important;
+  }
+
+  #pagebody{
+    margin-top:-22px !important;
+  }
+  #content, #gallery{
+    width:90%!important;
+    margin: 0 auto!important;
+    float:none!important;
+  }
+
+ #subMenu{
+    display: none;
+  }
+
+  
+/* 製品情報トップ
+---------------------*/
+
+  .pro .sp_cont_t{
+    display: block;
+  }
+  .pro .sp_cont_t .pro_t{
+    position: relative;
+  }
+  .pro .sp_cont_t .pro_t p.bg img{
+    width:100%;
+    height:auto;
+  }
+  .pro .sp_cont_t .pro_t p.ttl{
+    position: absolute;
+    top:25px;
+    left:15px;
+    font-weight: 400;
+    font-size:16px;
+    color: #fff;
+  }
+  .pro.pro_index h1{
+    background-image: none;
+    border:none;
+    background-color: #e8e8ed;
+    margin:20px 0 10px;
+    color:#0076c3;
+    padding:5px 15px;
+  }
+  .pro.pro_index #content .pc{
+    display: none;
+  }
+
+  .pro.pro_index #content a.lineupL,
+  .pro.pro_index #content a.lineupR {
+    clear: both;
+    box-sizing: border-box;
+    background: url(../../products/images/sp_pro_ind_arrow.png) no-repeat 97% 50%;
+    background-size: 10px;
+    width: 100% !important;
+    height: 83px !important;
+    margin: 0;
+    padding: 5px 20px 5px 5px!important;
+    font-size: 11px;
+    line-height: 1.4em;
+    color: #666;
+    display: block;
+    border:1px solid #0076c3 !important;
+    margin-bottom:10px !important;
+    overflow:hidden;
+    }
+  .pro.pro_index #content a.lineupR{
+    margin-left:0!important;
+  }
+  .pro.pro_index #content .pc{
+    display: none;
+  }
+  .pro.pro_index #content .pro_t{
+    display: inline;
+    font-weight:700;
+    font-size:15px;
+    color:#333;
+    line-height: 1.3em;
+  }
+
+
+/* 製品情報
+---------------------*/
+
+  #content .lev2_t{
+    display: block;
+    background: #0076c3;
+    color:#fff;
+    font-size:18px;
+    padding:5px 15px;
+    margin-top:20px;
+  }
+
+  #content h2.product{
+    display: none;
+    height:0px;
+  }
+  #content img.up{
+    display: none;
+    height:0px;
+  }
+  #content #menu{
+    display: none;
+    height:0px;
+  }
+
+  #content .sp_pro_t{
+    display: block;
+    position: relative;
+  }
+  #content .sp_pro_t h1{
+    font-size:25px;
+    font-weight:700;
+    line-height: 1.3em;
+    background-image: none;
+    border:none;
+    padding-left:0;
+  }
+  #content .sp_pro_t p.cate{
+    font-size:13px;
+    font-weight:normal;
+    border-bottom:1px solid #666;
+    line-height: 1.3em;
+    padding-top:10px !important;
+    margin-bottom:5px!important;
+    padding-bottom:5px;
+  }
+  #content .sp_pro_t img.pro_photo{
+    width:140px;
+    height:auto;
+    position: absolute;
+    top:0px;
+    right:0px;
+  }
+
+  #content .sp_pro_t .pro_navi ul.navi1 li{
+    width:33%;
+    height:30px;
+    float:left;
+    border-top:1px solid #0076c3;
+    border-right:1px solid #0076c3;
+    border-bottom:1px solid #0076c3;
+    background: #efefef;
+  }
+  #content .sp_pro_t .pro_navi ul.navi1 li a{
+    display: block;
+    padding:7px 0 7px 12px;
+    font-size:11px;
+  }
+  #content .sp_pro_t .pro_navi ul.navi1 li a::before{
+    content:"»";
+  }
+  #content .sp_pro_t .pro_navi{
+    margin:20px 0 30px;
+  }
+  #content .sp_pro_t .pro_navi ul.navi1 li.outline{
+    width:32%;
+    height:30px;
+    float:left;
+    border:1px solid #0076c3;
+    border-left:1px solid #0076c3;
+    color:#0076c3;
+    font-weight:bold;
+    background: #fff;
+  }
+  #content .sp_pro_t .pro_navi ul.navi1 li.outline span{
+    display: block;
+    padding:5px 15px;
+    text-align: center;
+  }
+  #content .sp_pro_t .pro_navi ul.navi2{
+    padding:10px 0;
+    /*border-bottom:1px solid #999;*/
+  }
+  #content .sp_pro_t .pro_navi ul.navi2 li{
+    width:30%;
+    margin:0 4px;
+    padding:3px 7px;
+    float:left;
+    font-size:10px;
+    background:#ddd;
+    border-radius: 7px;
+    box-sizing: border-box; 
+  }
+  #content .sp_pro_t .pro_navi ul.navi2 li a{
+    color:#333;
+    display: block;
+  }
+/*  #content .sp_pro_t .pro_navi ul.navi2 li a::before{
+    content:">";
+    padding-left:9px;
+  }*/
+
+
+
+
+   #content img.R{
+    margin:0 0 10px 10px !important;
+  }
+  img.sp_opt{
+    width:100% !important;
+    height:auto !important;
+  }
+  table.struct th, td.descr{
+    display: block;
+    padding-bottom:10px;
+  }
+  table.struct th{
+    text-align: center;
+    width:auto;
+  }
+  table.struct td.empt{
+    display: none;
+  }
+
+  #kanren .block {
+    width: auto  !important;
+    margin: 10px 0 0 0 !important;
+  }
+  #kanren .block p.link,
+  #kanren .block p.line {
+    width: auto  !important;
+    float: none;
+    }
+
+/* 企業情報
+---------------------*/
+  .corp #content h1.pc,
+  .corp #gallery h1.pc{
+    display: none;
+  }
+  .corp #content h2{
+    border-bottom:0 !important;
+  }
+  .corp .sp_cont_t{
+    display: block;
+  }
+  .corp .sp_cont_t .corp_t{
+    position: relative;
+  }
+  .corp .sp_cont_t .corp_t p.bg img{
+    width:100%;
+    height:auto;
+  }
+  .corp .sp_cont_t .corp_t p.ttl{
+    position: absolute;
+    top:25px;
+    left:15px;
+    font-weight: 400;
+    font-size:16px;
+    color: #fff;
+  }
+  .corp .sp_cont_t h1{
+    background-image: none;
+    border:none;
+    border-bottom:1px solid #aaa;
+    font-weight:300;
+    font-size:18px;
+    padding-left:15px !important;
+  }
+  .corp #content table{
+    width:auto !important;
+  }
+  .corp #content ul{
+    margin:0 0 0 1em!important;
+  }
+  .corp #content ul li{
+    margin:3px !important;
+    font-size:13px;
+  }
+  .corp #content table .bl{
+    display: block;
+  }
+  .corp #content table td.bl{
+    padding-left:1em;
+  }
+  .corp #content img.map{
+    display: none;
+  }
+  .corp #content map{
+    display: none;
+  }
+  .corp #content img.sp_map{
+    width:100%;
+    height:auto;
+  }
+  .corp #gallery .copy{
+    font-size:20px;
+    font-weight: 600;
+    margin:20px 0;
+  }
+  .corp #gallery .facility .info{
+    margin-left:0 !important;
+  }
+  .corp #gallery .toiawase{
+    box-sizing: border-box;
+    width:100%;
+    height:auto;
+    background-image: none;
+    background-color: #efefef;
+    padding:15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  .corp #gallery .toiawase h3{
+    margin:0 0 10px 0 !important;
+  }
+  .corp #gallery .toiawase .skip {
+     position: relative; 
+     width: auto; 
+     height: auto; 
+    /* overflow: hidden; */
+    }
+
+/* お問い合わせ一覧
+---------------------*/
+  #contactWrapper {
+    width: 95%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    }
+  #contactWrapper h2{
+    font-size:24px;
+  }
+  #contactWrapper th,
+  #contactWrapper td{
+    padding:8px 5px !important;
+    font-size:13px;
+  }
+  #contactWrapper th{
+    width:10em;
+  }
+  #contactWrapper td.narrow{
+    width:;
+  }
+
+  #contactWrapper .step img{
+    width:100%;
+  }
+  #contactWrapper .formWrapper {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  #contactWrapper .formWrapper dl {
+    padding:10px 0;
+  }
+  #contactWrapper .formWrapper dl dt{
+    width:100%;
+    float:none;
+  }
+  #contactWrapper .formWrapper dl dd{
+    width:100%;
+    float:none;
+  }
+  #contactWrapper .abs:after {
+    position:inherit;
+    margin-left: 1em!important;
+    top:0;
+  }
+  
+  #contactWrapper .formWrapper dl dd ul li{
+    float:none;
+    margin-bottom:10px;
+  }
+  #contactWrapper .formWrapper dl dd ul.name li {
+    margin: 0!important;
+  }
+
+  #contactWrapper .formWrapper input.wide {
+    width: 100%;
+  }
+  #contactWrapper .formWrapper textarea.wide {
+    width: 100%;
+  }
+  #contactWrapper .formWrapper .industry--02 {
+    width: 100%;
+  }
+  #contactWrapper .formWrapper select.transaction{
+    font-size:13px;
+    padding:0 20px 0 0;
+  }
+  #contactWrapper .formWrapper .submitbtn > input {
+    width:100%;
+  }
+  #contactWrapper .formWrapper .prv {
+    width: 100%;
+  }
+
+  #contactWrapper .formWrapper .teisei {
+  width: 200px;
+  height: 30px;
+  float: none;
+  margin:20px auto;
+  }
+  #contactWrapper .formWrapper .submitbtn {
+    width: 100%;
+    margin-top:10px;
+  }
+  #contactWrapper .step{
+    display:none;
+  }
+
+  #contactWrapper .thanks{
+    font-size:13px;
+
+  }
+
+}

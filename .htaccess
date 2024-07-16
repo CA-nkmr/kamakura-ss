@@ -1,0 +1,5 @@
+
+AuthUserFile "/home/kamakurass/kamakura-ss.co.jp/htpasswd/test.kamakura-ss.co.jp/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user

@@ -1,0 +1,870 @@
+# Translation of Plugins - WP-DBManager - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP-DBManager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-24 06:04:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP-DBManager - Stable (latest release)\n"
+
+#: wp-dbmanager.php:345
+msgid "Backup File MD5 Checksum:"
+msgstr "バックアップファイル MD5 チェックサム:"
+
+#: database-manage.php:116
+msgid "MD5 Checksum"
+msgstr "MD5 チェックサム"
+
+#: database-backup.php:199
+msgid "I'm sorry, your server administrator has disabled passthru(), system() and/or exec(), thus you cannot use this plugin. Please find an alternative plugin."
+msgstr "サーバー管理者が passthru()、system()、exec()を無効にしているため、このプラグインを使用することができません。別のプラグインをご利用ください。"
+
+#: database-backup.php:171 database-backup.php:180 database-backup.php:189
+msgid "missing"
+msgstr "見当たりません"
+
+#. Author URI of the plugin
+msgid "https://lesterchan.net"
+msgstr "http://lesterchan.net"
+
+#. Author of the plugin
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin
+msgid "Manages your WordPress database. Allows you to optimize database, repair database, backup database, restore database, delete backup database , drop/empty tables and run selected queries. Supports automatic scheduling of backing up, optimizing and repairing of database."
+msgstr "WordPress のデータベースを管理します。データベースの最適化、データベースの修復、データベースのバックアップ、データベースの復元、バックアップされたデータベースの削除、テーブルを削除/空にする、選択したクエリの実行が可能です。データベースのバックアップ、最適化、修復の自動スケジューリングをサポートします。"
+
+#. Plugin URI of the plugin
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "http://lesterchan.net/portfolio/programming/php/"
+
+#. Plugin Name of the plugin
+msgid "WP-DBManager"
+msgstr "WP-DBManager"
+
+#: wp-dbmanager.php:869
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: wp-dbmanager.php:858
+msgid "Hide Admin Notices"
+msgstr "管理者通知を非表示にする"
+
+#: wp-dbmanager.php:855
+msgid "Miscellaneous Options"
+msgstr "その他オプション"
+
+#: wp-dbmanager.php:848
+msgid "Subject"
+msgstr "件名"
+
+#: wp-dbmanager.php:845
+msgid "Subject:"
+msgstr "件名:"
+
+#: wp-dbmanager.php:841 wp-dbmanager.php:850
+msgid "(Leave blank to use the default)"
+msgstr "(デフォルトを使用するためには、空白にしてください) "
+
+#: wp-dbmanager.php:839
+msgid "From E-mail"
+msgstr "差出人のメールアドレス"
+
+#: wp-dbmanager.php:838
+msgid "From Name"
+msgstr "差出人の名前"
+
+#: wp-dbmanager.php:835
+msgid "From"
+msgstr "From"
+
+#: wp-dbmanager.php:831
+msgid "(Leave blank to disable this feature)"
+msgstr "(この機能を無効にするためには、空白にしてください) "
+
+#: wp-dbmanager.php:829
+msgid "To E-mail"
+msgstr "メール先"
+
+#: wp-dbmanager.php:826
+msgid "To"
+msgstr "To"
+
+#: wp-dbmanager.php:823
+msgid "Backup Email Options"
+msgstr "バックアップメールオプション"
+
+#: wp-dbmanager.php:818
+msgid "WP-DBManager can automatically repair your database after a certain period."
+msgstr "WP-DBManager は、一定期間後にデータベースを自動的に修復することができます。"
+
+#: wp-dbmanager.php:800
+msgid "Next repair date: "
+msgstr "次回の修復日時: "
+
+#: wp-dbmanager.php:797
+msgid "Automatic Repairing Of DB:"
+msgstr "データベースの自動修復: "
+
+#: wp-dbmanager.php:793
+msgid "WP-DBManager can automatically optimize your database after a certain period."
+msgstr "WP-DBManager は、一定期間後にデータベースを自動的に最適化することができます。"
+
+#: wp-dbmanager.php:775
+msgid "Next optimize date: "
+msgstr "次の最適化日:"
+
+#: wp-dbmanager.php:772
+msgid "Automatic Optimizing Of DB:"
+msgstr "DB の自動最適化:"
+
+#: wp-dbmanager.php:768
+msgid "WP-DBManager can automatically backup your database after a certain period."
+msgstr "WP-DBManager は、一定期間後にデータベースを自動的にバックアップすることができます。"
+
+#: wp-dbmanager.php:762
+msgid "Gzip"
+msgstr "Gzip"
+
+#: wp-dbmanager.php:760 wp-dbmanager.php:790 wp-dbmanager.php:815
+msgid "Month(s)"
+msgstr "月間"
+
+#: wp-dbmanager.php:759 wp-dbmanager.php:789 wp-dbmanager.php:814
+msgid "Week(s)"
+msgstr "週間"
+
+#: wp-dbmanager.php:758 wp-dbmanager.php:788 wp-dbmanager.php:813
+msgid "Day(s)"
+msgstr "日間"
+
+#: wp-dbmanager.php:757 wp-dbmanager.php:787 wp-dbmanager.php:812
+msgid "Hour(s)"
+msgstr "時間"
+
+#: wp-dbmanager.php:756 wp-dbmanager.php:786 wp-dbmanager.php:811
+msgid "Minutes(s)"
+msgstr "分間"
+
+#: wp-dbmanager.php:755 wp-dbmanager.php:785 wp-dbmanager.php:810
+msgid "Disable"
+msgstr "無効化"
+
+#: wp-dbmanager.php:753 wp-dbmanager.php:783 wp-dbmanager.php:808
+msgid "Every"
+msgstr "間隔"
+
+#: wp-dbmanager.php:749 wp-dbmanager.php:779 wp-dbmanager.php:804
+msgid "N/A"
+msgstr "該当なし"
+
+#: wp-dbmanager.php:745
+msgid "Next backup date: "
+msgstr "次のバックアップ日:"
+
+#: wp-dbmanager.php:742
+msgid "Automatic Backing Up Of DB:"
+msgstr "データベースの自動バックアップ: "
+
+#: wp-dbmanager.php:739
+msgid "Automatic Scheduling"
+msgstr "自動スケジュール"
+
+#: wp-dbmanager.php:734
+msgid "The 'Auto Detect' function does not work for some servers. If it does not work for you, please contact your server administrator for the MYSQL and MYSQL DUMP paths."
+msgstr "「自動検出」機能は、一部のサーバーでは動作しません。動作しない場合は、サーバー管理者に MYSQL および MYSQL DUMP のパスを確認してください。"
+
+#: wp-dbmanager.php:728
+msgid "For mysql path, normally is just '<strong>mysql</strong>'."
+msgstr "mysql のパスは、通常は単に '<strong>mysql</strong>' です。"
+
+#: wp-dbmanager.php:727
+msgid "For mysqldump path, normally is just '<strong>mysqldump</strong>'."
+msgstr "mysqldump のパスは、通常単に '<strong>mysqldump</strong>' です。"
+
+#: wp-dbmanager.php:726
+msgid "Linux Server"
+msgstr "Linux サーバー"
+
+#: wp-dbmanager.php:721
+msgid "For mysql path, you can try '<strong>mysql.exe</strong>'."
+msgstr "mysql のパスについて、'<strong>mysql.exe</strong>' を試してみてください。"
+
+#: wp-dbmanager.php:720
+msgid "For mysqldump path, you can try '<strong>mysqldump.exe</strong>'."
+msgstr "mysqldump のパスについて、'<strong>mysqldump.exe</strong>' を試してみてください。"
+
+#: wp-dbmanager.php:719
+msgid "Windows Server"
+msgstr "Windows サーバー"
+
+#: wp-dbmanager.php:715 wp-dbmanager.php:733
+msgid "Note"
+msgstr "注"
+
+#: wp-dbmanager.php:710
+msgid "The maximum number of database backup files that is allowed in the backup folder as stated above. The oldest database backup file is always deleted in order to maintain this value. This is to prevent the backup folder from getting too large."
+msgstr "バックアップフォルダー内で許可されるデータベースバックアップファイルの最大数です。この値を維持するために、常に最も古いデータベースのバックアップファイルが削除されます。これは、バックアップフォルダーが大きくなりすぎるのを防ぐためです。"
+
+#: wp-dbmanager.php:707
+msgid "Maximum Backup Files:"
+msgstr "最大バックアップファイル:"
+
+#: wp-dbmanager.php:703
+msgid "The absolute path to your database backup folder without trailing slash. Make sure the folder is writable."
+msgstr "末尾のスラッシュを除くデータベースのバックアップフォルダーへの絶対パス。このフォルダーが書き込み可能であることを確認してください。"
+
+#: wp-dbmanager.php:700
+msgid "Path To Backup:"
+msgstr "バックアップのパス:"
+
+#: wp-dbmanager.php:696
+msgid "The absolute path to mysql without trailing slash. If unsure, please email your server administrator about this."
+msgstr "末尾のスラッシュを除いた mysql の絶対パスです。不明な場合は、サーバー管理者にメールでお問い合わせください。"
+
+#: wp-dbmanager.php:693
+msgid "Path To mysql:"
+msgstr "mysql のパス:"
+
+#: wp-dbmanager.php:689
+msgid "The absolute path to mysqldump without trailing slash. If unsure, please email your server administrator about this."
+msgstr "末尾のスラッシュを除いた mysqldump の絶対パス。不明な場合は、サーバー管理者にメールでお問い合わせください。"
+
+#: wp-dbmanager.php:688 wp-dbmanager.php:695
+msgid "Auto Detect"
+msgstr "自動検出"
+
+#: wp-dbmanager.php:686
+msgid "Path To mysqldump:"
+msgstr "mysqldump へのパス: "
+
+#: wp-dbmanager.php:683
+msgid "Paths"
+msgstr "パス"
+
+#: wp-dbmanager.php:682
+msgid "Database Options"
+msgstr "データベースオプション"
+
+#: wp-dbmanager.php:625
+msgid "No Database Option Updated"
+msgstr "データベースオプションが更新されませんでした"
+
+#: wp-dbmanager.php:622
+msgid "Database Options Updated"
+msgstr "データベースオプションが更新されました"
+
+#: wp-dbmanager.php:444
+msgid "%SITE_NAME% Database Backup File For %POST_DATE% @ %POST_TIME%"
+msgstr "%SITE_NAME% データベースのバックアップファイル %POST_DATE% @ %POST_TIME%"
+
+#: wp-dbmanager.php:373
+msgid "bytes"
+msgstr "バイト"
+
+#: wp-dbmanager.php:371
+msgid "KiB"
+msgstr "KiB"
+
+#: wp-dbmanager.php:369
+msgid "MiB"
+msgstr "MiB"
+
+#: wp-dbmanager.php:367
+msgid "GiB"
+msgstr "GiB"
+
+#: wp-dbmanager.php:349 wp-dbmanager.php:441
+msgid "Administrator"
+msgstr "管理者"
+
+#: wp-dbmanager.php:348
+msgid "With Regards,"
+msgstr "---"
+
+#: wp-dbmanager.php:347
+msgid "Backup File Size:"
+msgstr "バックアップファイルサイズ:"
+
+#: wp-dbmanager.php:346
+msgid "Backup File Date:"
+msgstr "バックアップファイル日時:"
+
+#: wp-dbmanager.php:344
+msgid "Backup File Name:"
+msgstr "バックアップファイル名:"
+
+#: wp-dbmanager.php:343
+msgid "Website URL:"
+msgstr "ウェブサイト URL:"
+
+#: wp-dbmanager.php:342
+msgid "Website Name:"
+msgstr "ウェブサイト名:"
+
+#: wp-dbmanager.php:260 wp-dbmanager.php:613
+msgid "%s is not a valid mysqldump path"
+msgstr "%s は、有効な mysqldump のパスではありません"
+
+#: wp-dbmanager.php:209
+msgid "<a href=\"%s\">Click here</a> to let WP-DBManager try to fix it"
+msgstr "<a href=\"%s\">ここをクリック</a>すると、WP-DBManager が修復を試みます。"
+
+#: wp-dbmanager.php:199 wp-dbmanager.php:203 wp-dbmanager.php:207
+msgid "To correct this issue, move the file from <strong>%s</strong> to <strong>%s</strong>"
+msgstr "この問題を修正するために、ファイルを <strong>%s</strong> から <strong>%s</strong>  に移動します。"
+
+#: wp-dbmanager.php:195
+msgid "Your backup folder MIGHT be visible to the public"
+msgstr "バックアップフォルダーが、一般公開の状態かもしれません"
+
+#: wp-dbmanager.php:192
+msgid "To correct this issue, make the folder <strong>%s</strong> writable."
+msgstr "この問題を修正するために、フォルダー <strong>%s</strong> を書き込み可能にしてください。"
+
+#: wp-dbmanager.php:191
+msgid "Your backup folder is NOT writable"
+msgstr "バックアップフォルダーに書き込み権限がありません。"
+
+#: wp-dbmanager.php:171
+msgid "WP-DBManager Repair Schedule"
+msgstr "WP-DBManager 修復スケジュール"
+
+#: wp-dbmanager.php:170
+msgid "WP-DBManager Optimize Schedule"
+msgstr "WP-DBManager 最適化スケジュール"
+
+#: wp-dbmanager.php:169
+msgid "WP-DBManager Backup Schedule"
+msgstr "WP-DBManager バックアップスケジュール"
+
+#: wp-dbmanager.php:52
+msgid "DB Options"
+msgstr "DB オプション"
+
+#: wp-dbmanager.php:49
+msgid "Repair DB"
+msgstr "DB 修復"
+
+#: wp-dbmanager.php:48
+msgid "Optimize DB"
+msgstr "DB 最適化"
+
+#: wp-dbmanager.php:47
+msgid "Manage Backup DB"
+msgstr "バックアップ DB の管理"
+
+#: wp-dbmanager.php:46
+msgid "Backup DB"
+msgstr "バックアップ DB"
+
+#: database-run.php:91
+msgid "3. ALTER statement will return an error because there is no value returned."
+msgstr "3. ALTER ステートメントは、返り値が存在しないため、エラーを返します。"
+
+#: database-run.php:90
+msgid "2. UPDATE statement may return an error sometimes due to the newly updated value being the same as the previous value."
+msgstr "2. UPDATE ステートメントは、新しく更新された値が以前と同じ値のため、エラーを返すことがあります。"
+
+#: database-run.php:89
+msgid "1. CREATE statement will return an error, which is perfectly normal due to the database class. To confirm that your table has been created check the Manage Database page."
+msgstr "1. CREATE ステートメントはエラーを返しますが、これはデータベースクラスの問題であり、全く問題ありません。テーブルが作成されたことを確認するには、「データベースの管理」ページを確認してください。"
+
+#: database-run.php:78
+msgid "Use Only INSERT, UPDATE, REPLACE, DELETE, CREATE and ALTER statements."
+msgstr "INSERT、UPDATE、REPLACE、DELETE、CREATE、ALTER の各ステートメントのみ使用してください。"
+
+#: database-run.php:77
+msgid "Separate Multiple Queries With A New Line"
+msgstr "複数のクエリーは、改行で区切ってください"
+
+#: database-run.php:74 wp-dbmanager.php:51
+msgid "Run SQL Query"
+msgstr "SQL クエリーの実行"
+
+#: database-run.php:60 database-run.php:63
+msgid "Empty Query"
+msgstr "空のクエリー"
+
+#: database-run.php:58
+msgid "Query(s) Executed Successfully"
+msgstr "クエリーの実行に成功"
+
+#: database-run.php:24 database-run.php:85
+msgid "Run"
+msgstr "実行"
+
+#: database-repair.php:55
+msgid "Repair Database"
+msgstr "データベースの修復"
+
+#: database-repair.php:39
+msgid "Table(s) '%s' Repaired"
+msgstr "テーブル '%s' を修復しました"
+
+#: database-repair.php:37
+msgid "Table(s) '%s' NOT Repaired"
+msgstr "テーブル '%s' を修復していません"
+
+#: database-repair.php:20 database-repair.php:78
+msgid "Repair"
+msgstr "修復"
+
+#: database-optimize.php:77
+msgid "Database should be optimized once every month."
+msgstr "データベースは毎月1回、最適化する必要があります。"
+
+#: database-optimize.php:60 database-repair.php:61
+msgid "Options"
+msgstr "設定"
+
+#: database-optimize.php:54
+msgid "Optimize Database"
+msgstr "データベース最適化"
+
+#: database-optimize.php:38
+msgid "Table(s) '%s' Optimized"
+msgstr "テーブル '%s' を最適化しました"
+
+#: database-optimize.php:36
+msgid "Table(s) '%s' NOT Optimized"
+msgstr "テーブル '%s' を最適化していません"
+
+#: database-optimize.php:29 database-repair.php:30
+msgid "No Tables Selected"
+msgstr "テーブルが選択されていません"
+
+#: database-optimize.php:19 database-optimize.php:80
+msgid "Optimize"
+msgstr "最適化"
+
+#: database-manager.php:103
+msgid "%s Record"
+msgid_plural "%s Records"
+msgstr[0] "%s レコード"
+
+#: database-manager.php:102
+msgid "%s Table"
+msgid_plural "%s Tables"
+msgstr[0] "%s テーブル"
+
+#: database-manager.php:101
+msgid "Total:"
+msgstr "合計:"
+
+#: database-manager.php:70
+msgid "Overhead"
+msgstr "オーバーヘッド"
+
+#: database-manager.php:69
+msgid "Index Usage"
+msgstr "インデックスの使用量"
+
+#: database-manager.php:68
+msgid "Data Usage"
+msgstr "データの使用量"
+
+#: database-manager.php:67
+msgid "Records"
+msgstr "レコード"
+
+#: database-manager.php:60
+msgid "Tables Information"
+msgstr "テーブル情報"
+
+#: database-manager.php:52
+msgid "Database Version"
+msgstr "データベースバージョン"
+
+#: database-manager.php:48
+msgid "Database Type"
+msgstr "データベースタイプ"
+
+#: database-manager.php:44
+msgid "Database User"
+msgstr "データベースユーザー"
+
+#: database-manager.php:40
+msgid "Database Name"
+msgstr "データベース名"
+
+#: database-manager.php:36
+msgid "Database Host"
+msgstr "データベースホスト"
+
+#: database-manager.php:31
+msgid "Setting"
+msgstr "設定"
+
+#: database-manager.php:26
+msgid "Database Information"
+msgstr "データベース情報"
+
+#: wp-dbmanager.php:43 database-manager.php:25
+msgid "Database"
+msgstr "データベース"
+
+#: database-manage.php:170
+msgid "You Are About To Delete The Selected Database Backup Files.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] to stop, [Ok] to delete."
+msgstr "選択したデータベースバックアップファイルを削除しようとしています。\\nこの操作は元に戻すことはできません。\\n\\n 中止する場合は [Cancel] 、削除する場合は [Ok] を選択してください。"
+
+#: database-manage.php:169
+msgid "You Are About To Restore A Database.\\nThis Action Is Not Reversible.\\nAny Data Inserted After The Backup Date Will Be Gone.\\n\\n Choose [Cancel] to stop, [Ok] to restore."
+msgstr "データベースを復元しようとしています。\\nこの操作は元に戻すことはできません。\\nバックアップ日以降に挿入されたデータはすべて失われます。\\n\\n 中止する場合は [Cancel] 、復元する場合は [Ok] を選択してください。"
+
+#: database-manage.php:164
+msgid "E-mail database backup file to:"
+msgstr "データベースバックアップファイルのメール先:"
+
+#: database-manage.php:157
+msgid "%s Backup File"
+msgid_plural "%s Backup Files"
+msgstr[0] "%s バックアップファイル"
+
+#: database-manage.php:153
+msgid "There Are No Database Backup Files Available."
+msgstr "利用可能なデータベースのバックアップファイルがありません。"
+
+#: database-manage.php:120
+msgid "Select"
+msgstr "選択"
+
+#: database-manage.php:119
+msgid "Size"
+msgstr "サイズ"
+
+#: database-manage.php:118
+msgid "Date/Time"
+msgstr "日時"
+
+#: database-manage.php:117
+msgid "Database File"
+msgstr "データベースファイル"
+
+#: database-manage.php:115 database-manager.php:65
+msgid "No."
+msgstr "No."
+
+#: database-manage.php:111
+msgid "Choose A Backup Date To E-Mail, Restore, Download Or Delete"
+msgstr "メールアドレスへ送信、復元、ダウンロード、または削除するバックアップの日時を選択します"
+
+#: database-manage.php:110
+msgid "Manage Backup Database"
+msgstr "バックアップデータベースの管理"
+
+#: database-manage.php:96
+msgid "Invalid Database Backup File On '%s'"
+msgstr "'%s' 上のデータベースのバックアップファイルが無効です"
+
+#: database-manage.php:93
+msgid "Database Backup File On '%s' Deleted Successfully"
+msgstr "'%s' 上のデータベースのバックアップファイルの削除に成功しました"
+
+#: database-manage.php:91
+msgid "Unable To Delete Database Backup File On '%s'"
+msgstr "'%s' 上のデータベースのバックアップファイルを削除できません"
+
+#: database-manage.php:87 database-manage.php:170
+msgid "Delete"
+msgstr "削除"
+
+#: database-manage.php:82 database-manage.php:168 wp-dbmanager.php:547
+msgid "Download"
+msgstr "ダウンロード"
+
+#: database-manage.php:76
+msgid "Unable To E-Mail Database Backup File For '%s' To '%s'"
+msgstr "'%s' 上のデータベースのバックアップファイルを '%s' へメール送信できません"
+
+#: database-manage.php:74
+msgid "Database Backup File For '%s' Successfully E-Mailed To '%s'"
+msgstr "'%s' 上のデータベースのバックアップファイルを '%s' にメール送信しました"
+
+#: database-manage.php:69 database-manage.php:164
+msgid "E-Mail"
+msgstr "Eメール"
+
+#: database-manage.php:66 database-manage.php:79 database-manage.php:84
+#: database-manage.php:99
+msgid "No Backup Database File Selected"
+msgstr "バックアップされたデータベースファイルを選択していません"
+
+#: database-manage.php:63
+msgid "Database On '%s' Restored Successfully"
+msgstr "'%s' 上のデータベース復元に成功しました"
+
+#: database-manage.php:61
+msgid "Database On '%s' Failed To Restore"
+msgstr "'%s' 上のデータベース復元に失敗しました"
+
+#: database-manage.php:56 wp-dbmanager.php:262 wp-dbmanager.php:616
+msgid "%s is not a valid mysql path"
+msgstr "%s は、有効な mysql のパスではありません"
+
+#: database-manage.php:30 database-manage.php:169
+msgid "Restore"
+msgstr "復元"
+
+#: database-empty.php:98
+msgid "You Are About To Empty Or Drop The Selected Databases.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] to stop, [Ok] to delete."
+msgstr "選択したデータベースを空にしたり、削除したりしようとしています。\\nこの操作は元に戻せません。\\n\\n 中止する場合は [Cancel] 、削除する場合は [Ok] を選択してください。"
+
+#: database-empty.php:94
+msgid "2. DROPPING a table means deleting the table. This action is not REVERSIBLE."
+msgstr "2. テーブルを「ドロップする」とは、そのテーブルを削除することを意味します。この操作は元に戻すことはできません。"
+
+#: database-empty.php:92
+msgid "1. EMPTYING a table means all the rows in the table will be deleted. This action is not REVERSIBLE."
+msgstr "1. テーブルを空にするということは、そのテーブルのすべての行が削除されることを意味します。この操作は元に戻すことはできません。"
+
+#: database-empty.php:73
+msgid "2"
+msgstr "2"
+
+#: database-empty.php:73 database-empty.php:87
+msgid "Drop"
+msgstr "ドロップ"
+
+#: database-empty.php:72
+msgid "1"
+msgstr "1"
+
+#: database-empty.php:72 database-empty.php:86
+msgid "Empty"
+msgstr "空"
+
+#: database-empty.php:71 database-optimize.php:59 database-repair.php:60
+#: database-manager.php:66
+msgid "Tables"
+msgstr "テーブル"
+
+#: database-empty.php:66 wp-dbmanager.php:50
+msgid "Empty/Drop Tables"
+msgstr "テーブルを空にする/ドロップする"
+
+#: database-empty.php:51
+msgid "Table(s) '%s' Dropped"
+msgstr "テーブル「%s」をドロップしました"
+
+#: database-empty.php:46
+msgid "Table '%s' Emptied"
+msgstr "テーブル '%s' を空にしました"
+
+#: database-empty.php:40
+msgid "No Tables Selected."
+msgstr "テーブルを選択していません。"
+
+#: database-empty.php:27 database-empty.php:98
+msgid "Empty/Drop"
+msgstr "空にする/ドロップ"
+
+#: database-backup.php:251 database-empty.php:98 database-run.php:85
+#: database-optimize.php:80 database-manage.php:171 database-repair.php:78
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: database-backup.php:248 database-optimize.php:73 wp-dbmanager.php:764
+#: wp-dbmanager.php:862 database-repair.php:74
+msgid "No"
+msgstr "いいえ"
+
+#: database-backup.php:248 database-optimize.php:73 wp-dbmanager.php:765
+#: wp-dbmanager.php:861 database-repair.php:74
+msgid "Yes"
+msgstr "はい"
+
+#: database-backup.php:247
+msgid "GZIP Database Backup File?"
+msgstr "データベースのバックアップファイルを GZIP 圧縮しますか?"
+
+#: database-backup.php:243
+msgid "MYSQL Dump Location:"
+msgstr "MYSQL ダンプの場所:"
+
+#: database-backup.php:240
+msgid "Full (Structure and Data)"
+msgstr "詳細 (構造とデータ)"
+
+#: database-backup.php:239
+msgid "Database Backup Type:"
+msgstr "データベースバックアップ形式:"
+
+#: database-backup.php:235
+msgid "Database Backup File Name:"
+msgstr "データベースバックアップファイル名:"
+
+#: database-backup.php:231
+msgid "Database Backup Date:"
+msgstr "データベースバックアップ日付:"
+
+#: database-backup.php:227
+msgid "Database Backup To:"
+msgstr "データベースバックアップ先:"
+
+#: database-backup.php:223
+msgid "Database Name:"
+msgstr "データベース名:"
+
+#: database-backup.php:219 database-manager.php:32
+msgid "Value"
+msgstr "値"
+
+#: database-backup.php:218
+msgid "Option"
+msgstr "オプション"
+
+#: database-backup.php:207
+msgid "Note: The checking of backup status is still undergoing testing, it may not be accurate."
+msgstr "注: バックアップ状況の確認は、まだテスト中であり、正確ではない可能性があります。"
+
+#: database-backup.php:203
+msgid "Please Rectify The Error Highlighted In Red Before Proceeding On."
+msgstr "赤色で表示されているエラーを解消してから、次の作業に進んでください。"
+
+#: database-backup.php:201
+msgid "Excellent. You Are Good To Go."
+msgstr "素晴らしい。準備完了です。"
+
+#: database-backup.php:168 database-backup.php:177 database-backup.php:186
+msgid "disabled"
+msgstr "無効"
+
+#: database-backup.php:174 database-backup.php:183 database-backup.php:192
+msgid "enabled"
+msgstr "有効"
+
+#: database-backup.php:165
+msgid "and"
+msgstr "と"
+
+#: database-backup.php:165
+msgid "Checking PHP Functions"
+msgstr "PHP 関数をチェックしています"
+
+#: database-backup.php:158
+msgid "MYSQL path does NOT exist. Please check your mysql path under DB Options. If uncertain, contact your server administrator."
+msgstr "MYSQL パスが存在しません。データベースオプションの mysql パスを確認してください。不明な場合は、サーバー管理者に問い合わせてください。"
+
+#: database-backup.php:155
+msgid "MYSQL path exists."
+msgstr "MYSQL パスが存在します。"
+
+#: database-backup.php:154 database-backup.php:157
+msgid "Checking MYSQL Path"
+msgstr "MYSQL パスを確認しています"
+
+#: database-backup.php:150
+msgid "%s is not a valid backup mysql path"
+msgstr "%s は、有効なバックアップの mysql パスではありません。"
+
+#: database-backup.php:141
+msgid "MYSQL dump path does NOT exist. Please check your mysqldump path under DB Options. If uncertain, contact your server administrator."
+msgstr "MYSQL のダンプパスが存在しません。データベースオプションで mysqldump のパスを確認してください。不明な場合は、サーバー管理者に問い合わせてください。"
+
+#: database-backup.php:138
+msgid "MYSQL dump path exists."
+msgstr "MYSQL ダンプのパスが存在します。"
+
+#: database-backup.php:137 database-backup.php:140
+msgid "Checking MYSQL Dump Path"
+msgstr "MYSQL ダンプのパスを確認しています"
+
+#: database-backup.php:133
+msgid "%s is not a valid backup mysqldump path"
+msgstr "%s は、有効なバックアップの mysqldump パスではありません"
+
+#: database-backup.php:124
+msgid "Backup folder is NOT writable. Please CHMOD it to '777'."
+msgstr "バックアップフォルダーが書き込み可能ではありません。'777'にCHMODしてください。"
+
+#: database-backup.php:122
+msgid "Backup folder is writable"
+msgstr "バックアップフォルダーが書き込み可能です"
+
+#: database-backup.php:118
+msgid "Backup folder does NOT exist. Please create 'backup-db' folder in '%s' folder and CHMOD it to '777' or change the location of the backup folder under DB Option."
+msgstr "バックアップフォルダーが存在しません。'%s' フォルダ内に 'backup-db' フォルダーを作成して、その権限を 777 に変更するか、データベースオプションでバックアップフォルダーの場所を変更してください。"
+
+#: database-backup.php:116
+msgid "Backup folder exists"
+msgstr "バックアップフォルダーが存在します"
+
+#: database-backup.php:112 database-manage.php:54 wp-dbmanager.php:258
+#: wp-dbmanager.php:610
+msgid "%s is not a valid backup path"
+msgstr "%s は、有効なバックアップのパスではありません。"
+
+#: database-backup.php:109
+msgid "Checking Backup Folder"
+msgstr "バックアップフォルダーの確認中"
+
+#: database-backup.php:107
+msgid "Checking Backup Status"
+msgstr "バックアップステータスの確認中"
+
+#: database-backup.php:103
+msgid "index.php is present in %s"
+msgstr "index.php は %s に存在します"
+
+#: database-backup.php:100
+msgid "index.php is missing from %s"
+msgstr "%s に index.php が見当たりません"
+
+#: database-backup.php:96
+msgid ".htaccess is present in %s"
+msgstr ".htaccess は %s に存在します"
+
+#: database-backup.php:93
+msgid ".htaccess is missing from %s"
+msgstr "%s に .htaccess が見当たりません"
+
+#: database-backup.php:89
+msgid "Web.config is present in %s"
+msgstr "Web.config は、%s に存在します"
+
+#: database-backup.php:86
+msgid "Web.config is missing from %s"
+msgstr "%s に Web.config が見当たりません"
+
+#: database-backup.php:81
+msgid "Checking Security Status"
+msgstr "セキュリティステータスの確認中"
+
+#: database-backup.php:80 database-backup.php:213
+msgid "Backup Database"
+msgstr "データベースのバックアップ"
+
+#: database-backup.php:63
+msgid "Database Backed Up Successfully On '%s'."
+msgstr "データベースは、'%s' のバックアップに成功しました。"
+
+#: database-backup.php:60
+msgid "Database Failed To Backup On '%s'."
+msgstr "データベースは、'%s' のバックアップに失敗しました。"
+
+#: database-backup.php:58
+msgid "Database Failed To Backup On '%s'. Invalid Backup File Path."
+msgstr "データベースは、'%s' のバックアップに失敗しました。バックアップファイルのパスが無効です。"
+
+#: database-backup.php:56
+msgid "Database Failed To Backup On '%s'. Backup File Size Is 0KB."
+msgstr "データベースは、'%s' のバックアップに失敗しました。バックアップファイルのサイズが 0KB です。"
+
+#: database-backup.php:54
+msgid "Database Failed To Backup On '%s'. Backup Folder Not Writable."
+msgstr "データベースは、'%s' のバックアップに失敗しました。バックアップフォルダーは書き込み可能ではありません。"
+
+#: database-backup.php:25 database-backup.php:251
+msgid "Backup"
+msgstr "バックアップ"
+
+#: database-backup.php:11 database-backup.php:232 wp-dbmanager.php:302
+#: wp-dbmanager.php:747 wp-dbmanager.php:777 wp-dbmanager.php:802
+msgid "%s @ %s"
+msgstr "%s @ %s"

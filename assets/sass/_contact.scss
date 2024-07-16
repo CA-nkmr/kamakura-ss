@@ -1,0 +1,427 @@
+// Basic setting
+
+$dd :#ddd;
+$cr :#f7eede;
+
+$contactPath:"../images/contact/";
+$cntctwrapperW:900px;
+/*----------------------------
+wrapper
+------------------------------*/
+
+#contactWrapper{
+	a{
+		text-decoration:none;
+		cursor:pointer;
+	}
+	div{
+		@include box-sizing(border-box);
+	}
+	@extend %cf;
+	width:$cntctwrapperW;
+	margin: auto;
+	padding-top: $headerPadding;
+	padding-bottom: 80px;
+	>h2{
+		text-align: center;
+		font-weight: 400;
+		font-size: $fz + 20px;
+		color:$bl;
+	}
+}
+
+
+
+/*----------------------------
+contact formリセット
+------------------------------*/
+/* iOSでのデフォルトスタイルをリセット */
+// input[type="submit"],
+// input[type="button"] {
+//   border-radius: 0;
+//   -webkit-box-sizing: content-box;
+//   -webkit-appearance: button;
+//   appearance: button;
+//   border: none;
+//   box-sizing: border-box;
+//     &::-webkit-search-decoration {
+//       display: none;
+//     }
+//     &::focus {
+//       outline-offset: -2px;
+//     }
+// }
+
+
+input[type="text"], input[type="submit"], button, textarea,  {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-size: $fz;
+}
+
+
+/*----------------------------
+必須
+------------------------------*/
+.abs{
+	position: relative;
+	&:after{
+		position: absolute;
+		@include box-sizing(border-box);
+		display: inline-block;
+		content:"必須";
+		background-color: $bl;
+		width: 43px;
+		height: 17px;
+		padding: 3px 5px;
+		line-height: 100%;
+		text-align: center;
+		color:$ff;
+		font-size: $fz - 4px;
+		right: 0;
+		top: 7px;
+		@include border-radius(2px);
+	}
+}
+
+/*----------------------------
+step 確認画面
+------------------------------*/
+.step{
+	@extend %cf;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*----------------------------
+contact
+------------------------------*/
+.formWrapper{
+	@extend %cf;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	$dlTBpd:20px;
+	dl{
+		@extend %cf;
+		padding-top: $dlTBpd;
+		padding-bottom: $dlTBpd;
+		border-bottom:1px dotted $bl;
+		input{
+			@include box-sizing(border-box);
+			background-color: $ff;
+			border:1px solid #dadada;
+			height: 32px;
+			padding: 5px;
+		}
+		// ラベル
+		label{
+			font-size: $fz - 1px;
+			margin-right: 5px;
+		}
+		dt{
+			@include box-sizing(border-box);
+			width: 250px;
+			height: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			float: left;
+			font-size: $fz - 1px;
+			line-height: 24px;
+			margin-right: 30px;
+		}
+		dd{
+			@extend %cf;
+			float: left;
+			input{
+				@include placeholderColor(#adadad);
+			}
+			ul{
+				@extend %cf;
+				li{
+					@extend %cf;
+					float: left;
+					>div{
+						select{		//初期化
+							font-size: $fz;
+							margin: 0;
+							padding: 0;
+							background: none;
+							border: none;
+							@include border-radius(0);
+							outline: none;
+							-webkit-writing-mode: horizontal-tb;
+							-webkit-appearance: none;
+							-moz-appearance: none;
+							appearance: none;
+								text-indent: 0.01px;
+								text-overflow: '';
+						}
+					}
+				}
+				&.name{
+					li{
+						input{
+							width: 267px;
+						}
+						&:last-child{
+							margin-left: 40px;
+						}
+					}
+					&-02{
+						li{
+							input{
+								width: 206px;
+							}
+							&:last-child{
+								margin-left: 40px;
+							}
+						}
+					}
+				}
+				// 郵便番号
+				&.yubin{
+					li{
+						.icon{
+							font-size: $fz - 1px;
+							float: left;
+							line-height: $lh + 4px;
+							margin-right: 10px;
+						}
+						input{
+							float: left;
+							// width: 266px;
+							width: 196px;
+						}
+					}
+				}
+				&.denwa{
+					li{
+						input{
+							width: 222px;
+						}
+					}
+				}
+			}
+		}
+	}
+	/*----------------------------
+	訂正
+	------------------------------*/
+	.teisei{
+		width: 200px;
+		height: 30px;
+
+		float: left;
+		margin-right: 30px;
+		margin-top: 50px;
+		// margin-left: auto;
+		// margin-right: auto;
+		text-align: center;
+		>input[type = "button"]{
+			width: 200px;
+			height: 30px;
+
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			margin: 0;
+			padding: 0;
+			background: none;
+			border: 1px solid $e8;
+			border-radius: 0;
+			outline: none;
+			font-size: $fz;
+			cursor: pointer;
+			color:$bl;
+			@include box-sizing(border-box);
+
+			text-align: center;
+			&:hover{
+				// border-bottom: 1px solid $bl;
+				background-color: $e8;
+			}
+		}
+	}
+	/*----------------------------
+	送信
+	------------------------------*/
+	.submitbtn{
+		width: 425px;
+		height: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 30px;
+		text-align: center;
+		margin-top: 40px;
+		font-weight:500;
+		font-size:$fz + 2px;
+		// border:1px solid #ddd;
+		// background-color: $bl;
+		>input{
+			display: block;
+			@include box-sizing(border-box);
+			width: 425px;
+			height: 60px;
+			border:1px solid $bl;
+			background-color: $bl;
+			color:$ff;
+			@include transition-duration(0.2s);
+			@include transition-timing-function(linear);
+			@include transition-property(background-color,color);
+			&:hover{
+				background-color:tint($bl,70%);
+				color:$bl;
+			}
+			&.is-not-submit{
+				background-color: $ff;
+				border: 1px solid #999c9d;
+				color: #999c9d;
+				&:hover{
+					background-color: $ff;
+					border: 1px solid #999c9d;
+					color: #999c9d;
+				}
+			}
+		}
+		input[type="submit"]{
+			font-size: 20px !important;
+		}
+		@include transition-duration(0.2s);
+		@include transition-timing-function(linear);
+		@include transition-property(background-color,color);
+
+	}
+	// 注釈
+	.cap{
+		clear: both;
+		font-size: $fz - 3px !important;
+		padding-top: 10px;
+		color:$a7;
+		line-height: $fz + 2px !important;
+	}
+
+	input.wide{
+		width: 618px;
+	}
+	textarea.wide{
+		@include box-sizing(border-box);
+		width: 618px;
+		height: 100px;
+		border:1px solid #dadada;
+		resize: vertical;
+		padding: 5px;
+
+	}
+	.selectBox{
+		width: 618px;
+		height: 33px;
+		padding-top: 4px;
+		padding-left: 7px;
+		border:1px solid #dadada;
+		position: relative;
+		&:after{
+			content:url(#{$contactPath}contactarrow.png);
+			position: absolute;
+			right: 9px;
+			top: 6px;
+			bottom: 0;
+			margin: auto;
+		}
+		&.prefe{
+			width: 222px;
+		}
+	}
+	.deposi--01 .input{
+		width: 172px;
+		margin-right: 30px;
+	}
+  .deposi--02 .input{
+		width: 415px;
+	}
+	.industry--01{
+		@extend .selectBox;
+		width: 172px;
+		margin-right: 30px;
+	}
+	.industry--02{
+		@extend .selectBox;
+		width: 415px;
+	}
+	select.transaction{
+		width: 100%;
+		padding-top: 5px;
+		padding-right: 5px;
+		background-color: $ff;
+			//初期化
+			font-size: $fz;
+			margin: 0;
+			padding: 0;
+			background: none;
+			border: none;
+			@include border-radius(0);
+			outline: none;
+			-webkit-writing-mode: horizontal-tb;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+				 text-indent: 0.01px;
+				 text-overflow: '';
+	}
+	// ie
+	select::-ms-expand {
+	  display: none;
+	}
+
+	.prv{
+		width: 805px;
+		height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 20px;
+		text-align: center;
+		p{
+			font-size: $fz;
+			color:$b0;
+			text-align: center;
+			>a{
+				font-size: $fz;
+				color:$bl;
+			}
+		}
+
+	}
+
+	// 最新情報のご案内
+	.custom01{
+		width: 130px;
+		padding-top: 6px;
+		height: 30px;
+		>p{
+			font-size: $fz;
+			padding-top: 2px;
+		}
+	}
+	.checkBox{
+		height: auto !important;
+		float: left;
+	}
+}// formWrapper
+
+.autoConfirmVal{
+	// @extend %cf;
+	// padding-top: 40px;
+	font-size: $fz;
+	line-height: 1.8;
+}
+
+
+@import "varidation";

@@ -1,0 +1,201 @@
+
+/*----------------------------
+heat_preparing ここから
+------------------------------*/
+
+#heat-survey__wrapper{
+    background: #ffffff;
+    padding-top: 170px;
+  
+    width: 980px;
+    margin:0px auto;
+    padding: 20px 60px 0px;
+  }
+  #heat-survey__wrapper strong {
+    font-weight: 700;
+  }
+  
+  #heat-survey__wrapper>p>img {
+    width: 980px;
+    height: auto;
+  }
+  .heat-survey_mainv>img{
+    height:auto;
+    width: 982px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .heat-survey_graph_img{
+    margin-top:30px ;
+    margin-bottom:40px ;
+    text-align: center;
+  }
+  .heat-survey_graph_sub{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .heat-survey_graph_responses{
+    text-align: right;
+    padding-right: 5%;
+    font-size: 14px;
+  }
+  .heat-survey_graph_img>img{
+    width: 80%;
+    height: auto;
+  }
+  
+  #heat-survey__wrapper a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #heat-survey__wrapper div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #heat-survey__wrapper h1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    line-height: 1.5;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #heat-survey__wrapper h2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #heat-survey__wrapper h3 {
+    text-align: left;
+    font-weight: 400;
+    /* font-size: 18px; */
+    /* color: #0076c3; */
+    position: relative;
+    margin-bottom: 5px;
+  }
+  #heat-survey__wrapper p.lead {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+  }
+  .heat-survey_summary{
+    
+  }
+
+
+  .heat-survey_summary_sentence{
+    font-size: 15px;
+    line-height: 1.8;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+  }
+  .summary_date{
+    font-size: 12px;
+    line-height: 1.8;
+    text-align: right;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+  }
+
+  .heat-survey_summary>h3{
+    background: #0076c3;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .heat-survey_summary>h2{
+    margin-top: 20px;
+  }
+  .heat-survey_summary>p{
+    line-height: 1.8;
+  }
+  
+  .heat-survey_overview{
+    background: #d0d0d0;
+    padding: 10px;
+    margin: 50px 0 80px 0;
+  }
+  
+  .heat-survey_link{
+    font-weight: 700;
+    color: #0076c3;
+    text-decoration: none;
+  }
+  .heat-survey_link>a:hover {
+    content: "";
+  }
+  
+  .survey_graph_list > li {
+    position: relative;
+    padding: 0px 0px 0px 0.8em;
+    list-style: none;
+    color: #0076c3;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 3;
+  }
+  .survey_graph_list > li::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(45deg);
+    width:  10px;
+    height:  10px;
+    background-color: #0076c3;
+    content: "";
+  }
+  .survey_graph_list{
+    padding-left: 20px;
+  }
+  .overview_list > li {
+    position: relative;
+    padding: 0px 0px 0px 0.2em;
+    list-style: none;
+    line-height: 1.8;
+    font-size: 14px;
+  }
+  .overview_list>h3{
+    font-size: 15px;
+  }
+  .heat-survey_overview{
+    padding: 25px;
+  }
+  .overview_list > li::before {
+    position: absolute;
+    width:  12px;
+    height:  12px;
+    display:  inline-block;
+    background-color: #000;
+    border-radius:  50%;
+    position:  relative;
+    top: -1px;
+    margin-right: 5px;          /* 余白指定 */
+    content: "";
+  }
+  /*レポート全文〜の*/
+  .heat-survey_contact{
+    margin: 40px 0px 40px 0;
+    border: solid 1px #0076c3;
+    line-height: 1.8;
+  }
+  .heat-survey_contact>h3{
+    color: #fff;
+    background: #0076c3;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .heat-survey_contact>p{
+    padding: 5px 10px;
+  }
+  
+  /*----------------------------
+  heat_preparing　ここまで
+  ------------------------------*/
