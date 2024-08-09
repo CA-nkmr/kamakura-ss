@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+$pc-w: 1280px;
+$tablet: 980px;
+$sp: 768px;
+
+
+@mixin pc-w {
+    @media (max-width: $pc-w) {
+      @content;
+    }
+  }
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: $sp) {
+    @content;
+  }
+}
+
+
+%reset-ul{
+	ul{
+		margin:0;
+		padding:0;
+		li{
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+	}
+}
+
+%reset-ol{
+	ol{
+		margin:0;
+		padding:0;
+		li{
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+	}
+}
+%reset-dl{
+	dl{
+		margin:0;
+		dt,dd{
+			margin:0;
+		}
+	}
+}
+
+@mixin Roboto{
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+}
+
+@mixin box-sizing{
+	box-sizing: border-box;
+}
+
+$basic-color : #333;
+
+@for $i from 0 through 20 {
+    .mt#{$i * 5} {
+        margin-top: #{$i * 5}px !important;
+    }
+}
+@for $i from 0 through 20 {
+    .mb#{$i * 5} {
+        margin-bottom: #{$i * 5}px !important;
+    }
+}
+@for $i from 0 through 20 {
+    .pt#{$i * 5} {
+        padding-top: #{$i * 5}px !important;
+    }
+}
+@for $i from 0 through 20 {
+    .pb#{$i * 5} {
+        padding-bottom: #{$i * 5}px !important;
+    }
+}
+
